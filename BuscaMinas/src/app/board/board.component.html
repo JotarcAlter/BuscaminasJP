@@ -16,7 +16,7 @@
             [ngClass]="{'closedCell': cell.status != 'open'}"
             >   
             <div 
-            *ngIf="cell.status =='ToOpen' && cell.mineProximity = 0 " 
+            *ngIf="cell.status =='toOpen'" 
             class="celdas"
             >
                 {{cell.contenido}}
