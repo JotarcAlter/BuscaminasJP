@@ -1,0 +1,49 @@
+.Game{
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    border: 1.5px solid black;
+    border-collapse: collapse;
+    width: 30px;
+    height: 30px;
+}
+
+.celdas, .mine, .reset, .Win, .Lose{
+    text-align: center;
+}
+.mine{
+    background-color: red;
+}
+
+.flag{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 20px;
+}
+
+.closedCell{
+    background-color: white;
+    letter-spacing: 2px;
+}
+
+.reset{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.et{
+    margin-bottom: 10px;
+}
+
+.celdas{
+    font-style: unset;
+}
